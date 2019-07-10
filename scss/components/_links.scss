@@ -1,0 +1,46 @@
+/* LINKS */
+
+
+.view-all {
+    text-align: center;
+
+    span {
+    display: inline-block;
+    }
+
+    a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
+    a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    display: block;
+    margin-top: 5px;
+    background: $sea-green;
+    transition: width .2s ease;
+    }
+
+    a:hover::after {
+    width: 100%;
+    left: 0;
+    background: $sea-green;
+    }
+}
+
+.view-all-black {
+    color: $black;
+}
+
+.view-all-white {
+    color: $white;
+}
+
+
+.user a {
+    text-decoration: none;
+    color: $cadet-blue;
+}

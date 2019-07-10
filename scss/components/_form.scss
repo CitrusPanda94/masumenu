@@ -1,0 +1,21 @@
+input[type="text"], input[type="email"], select, textarea {
+    font-family: $lato, "Arial", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    width: 100%;
+    padding: 10px;
+    @include border-radius(15px);
+    border: 1px solid $light-grey;
+}
+
+::placeholder {
+    color: $gainsboro;
+}
+
+textarea {
+    height: 100px;
+}
+
+.contact-form input, .contact-form textarea, .contact-form a {
+    margin-top: 15px;
+}

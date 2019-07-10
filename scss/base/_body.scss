@@ -1,0 +1,56 @@
+/* PARAGRAPHS */
+
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+    text-align: center;
+}
+
+/* ICONS */
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: $cadet-blue;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.icon-small {
+    font-size: 120%;
+    color: $cadet-blue;
+}
+
+
+/* IMAGE DISPLAY */
+
+.section-content {
+    padding: 0;
+}
+
+.content-showcase {
+    list-style: none;
+    width: 100%;
+
+    li {
+        display: block;
+        float: left;
+        width: 25%; 
+    }
+}
+
+
+.content {
+    width: 100%;
+    margin: 0;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.clearfix {
+    overflow: auto;
+}

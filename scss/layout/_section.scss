@@ -1,0 +1,128 @@
+/* ====================================== */
+/* TESTIMONIALS */
+/* ====================================== */
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/images/adrien-olichon-761776-unsplash.jpg");
+    background-size: cover;
+    color: $white;
+    background-attachment: fixed;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201c";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+}
+
+blockquote a {
+    text-decoration: none;
+    color: $cadet-blue;
+    border-bottom: 1px solid $cadet-blue
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+
+    img {
+        height: 45px;
+        @include border-radius(50%);
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+}
+
+
+
+
+/* ====================================== */
+/* PLANS */
+/* ====================================== */
+
+.section-plans {
+    background-color: $off-white;
+}
+
+.plan-box {
+    background-color: $white;
+    @include border-radius(5px);
+    width: 90%;
+    margin-left: 5%;
+    
+    div {
+        padding: 15px;
+        border: 1px solid $off-white;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        padding: 8px 0;
+    }
+
+    div:last-child {
+        text-align: center;
+    }
+}
+
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    color: $cadet-blue;
+
+    span {
+        font-size: 30%;
+        font-weight: 300;
+    }
+}
+
+.plan-description {
+    font-size: 70%;
+    font-weight: 100;
+}
+
+
+/* ====================================== */
+/* THE TEAM */
+/* ====================================== */
+
+.container-client {
+    background-color: $off-white;
+}
+
+.user img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.user-icon img {
+    @include border-radius(100%);
+}
+
+
+/* ====================================== */
+/* NEWS AND ARTICLES */
+/* ====================================== */
+
+.img-article img {
+    margin-bottom: 20px;
+}
+
